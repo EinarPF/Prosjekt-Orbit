@@ -11,11 +11,11 @@ module full_adder (
     wire f;
     wire g;
     wire h;
-    assign f = a^b;
-    assign g = a&c;
-    assign h = a&b;
+    assign f = a^b;  // xor
+    assign g = a&c;  // and
+    assign h = a&b;  // and
 
-    assign d = f^c;
-    assign e = g|h;
+    assign d = f^c;  //xor
+    assign e = g|h;  // or
 
 endmodule

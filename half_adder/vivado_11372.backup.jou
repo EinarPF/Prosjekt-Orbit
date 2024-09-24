@@ -3,13 +3,12 @@
 # SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Fri Sep 20 13:15:12 2024
-# Process ID: 5768
-# Current directory: C:/Users/perdo/Documents/Prosjekt Orbit/Prosjekt-Orbit/ANDprosjekt
+# Start of session at: Tue Sep 24 19:05:32 2024
+# Process ID: 11372
+# Current directory: C:/Users/perdo/Documents/Prosjekt Orbit/Prosjekt-Orbit/half_adder
 # Command line: vivado.exe -mode batch -source .\synth.tcl
-# Log file: C:/Users/perdo/Documents/Prosjekt Orbit/Prosjekt-Orbit/ANDprosjekt/vivado.log
-# Journal file: C:/Users/perdo/Documents/Prosjekt Orbit/Prosjekt-Orbit/ANDprosjekt\vivado.jou
+# Log file: C:/Users/perdo/Documents/Prosjekt Orbit/Prosjekt-Orbit/half_adder/vivado.log
+# Journal file: C:/Users/perdo/Documents/Prosjekt Orbit/Prosjekt-Orbit/half_adder\vivado.jou
 # Running On: DESKTOP-E28LBAG, OS: Windows, CPU Frequency: 1190 MHz, CPU Physical cores: 4, Host memory: 8260 MB
 #-----------------------------------------------------------
 source {.\synth.tcl}
-INFO: [Common 17-206] Exiting Vivado at Fri Sep 20 13:15:14 2024...

@@ -4,6 +4,6 @@ module AND (
     input b,
     output c
 );
-    assign c = a || b;
+    assign c = a & b;
 
 endmodule

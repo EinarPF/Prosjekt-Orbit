@@ -2,7 +2,7 @@
 // Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
-// Date        : Fri Sep 20 13:23:09 2024
+// Date        : Tue Sep 24 19:00:55 2024
 // Host        : DESKTOP-E28LBAG running 64-bit major release  (build 9200)
 // Command     : write_verilog -force out//netlist.v -mode timesim -sdf_anno true
 // Design      : AND
@@ -43,7 +43,7 @@ end
        (.I(c_OBUF),
         .O(c));
   LUT2 #(
-    .INIT(4'hE)) 
+    .INIT(4'h8)) 
     c_OBUF_inst_i_1
        (.I0(a_IBUF),
         .I1(b_IBUF),

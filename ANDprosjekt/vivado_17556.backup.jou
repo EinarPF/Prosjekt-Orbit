@@ -3,12 +3,12 @@
 # SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Fri Sep 20 13:13:54 2024
-# Process ID: 19436
+# Start of session at: Fri Sep 20 13:23:40 2024
+# Process ID: 17556
 # Current directory: C:/Users/perdo/Documents/Prosjekt Orbit/Prosjekt-Orbit/ANDprosjekt
-# Command line: vivado.exe -mode batch -source .\synth.tcl
+# Command line: vivado.exe -mode batch -source .\flash.tcl
 # Log file: C:/Users/perdo/Documents/Prosjekt Orbit/Prosjekt-Orbit/ANDprosjekt/vivado.log
 # Journal file: C:/Users/perdo/Documents/Prosjekt Orbit/Prosjekt-Orbit/ANDprosjekt\vivado.jou
 # Running On: DESKTOP-E28LBAG, OS: Windows, CPU Frequency: 1190 MHz, CPU Physical cores: 4, Host memory: 8260 MB
 #-----------------------------------------------------------
-source {.\synth.tcl}
+source {.\flash.tcl}

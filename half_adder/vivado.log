@@ -3,8 +3,8 @@
 # SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Fri Sep 20 14:23:20 2024
-# Process ID: 19784
+# Start of session at: Tue Sep 24 19:10:20 2024
+# Process ID: 21304
 # Current directory: C:/Users/perdo/Documents/Prosjekt Orbit/Prosjekt-Orbit/half_adder
 # Command line: vivado.exe -mode batch -source .\flash.tcl
 # Log file: C:/Users/perdo/Documents/Prosjekt Orbit/Prosjekt-Orbit/half_adder/vivado.log
@@ -13,7 +13,7 @@
 #-----------------------------------------------------------
 source {.\flash.tcl}
 # open_hw_manager
-open_hw_manager: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 466.488 ; gain = 186.922
+open_hw_manager: Time (s): cpu = 00:00:09 ; elapsed = 00:00:21 . Memory (MB): peak = 465.387 ; gain = 186.906
 # connect_hw_server -allow_non_jtag
 INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
 INFO: [Labtools 27-2222] Launching hw_server...
@@ -41,7 +41,7 @@ ECHO is off.
 
 
 
-connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 470.492 ; gain = 4.004
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 469.348 ; gain = 3.961
 # open_hw_target
 INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B5A5B1A
 # current_hw_device [get_hw_devices xc7a35t_0]
@@ -50,4 +50,4 @@ INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/
 # set_property PROGRAM.FILE {out/test.bit} [get_hw_devices xc7a35t_0]
 # program_hw_devices [get_hw_devices xc7a35t_0]
 INFO: [Labtools 27-3164] End of startup status: HIGH
-INFO: [Common 17-206] Exiting Vivado at Fri Sep 20 14:23:40 2024...
+INFO: [Common 17-206] Exiting Vivado at Tue Sep 24 19:10:56 2024...
