@@ -1,0 +1,43 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Sep 20 14:13:08 2024
+# Process ID: 11904
+# Current directory: C:/Users/perdo/Documents/Prosjekt Orbit/Prosjekt-Orbit/half_adder
+# Command line: vivado.exe -mode batch -source .\synth.tcl
+# Log file: C:/Users/perdo/Documents/Prosjekt Orbit/Prosjekt-Orbit/half_adder/vivado.log
+# Journal file: C:/Users/perdo/Documents/Prosjekt Orbit/Prosjekt-Orbit/half_adder\vivado.jou
+# Running On: DESKTOP-E28LBAG, OS: Windows, CPU Frequency: 1190 MHz, CPU Physical cores: 4, Host memory: 8260 MB
+#-----------------------------------------------------------
+source {.\synth.tcl}
+# set outputDir out/ 
+# file mkdir $outputDir
+# read_verilog -sv [ glob half_adder.sv]
+read_verilog: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 461.852 ; gain = 182.270
+# read_xdc half_adder.xdc
+# synth_design -top half_adder -part xc7a35tcpg236-1
+Command: synth_design -top half_adder -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 20320
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1300.863 ; gain = 439.352
+---------------------------------------------------------------------------------
+ERROR: [Synth 8-2716] syntax error near ';' [C:/Users/perdo/Documents/Prosjekt Orbit/Prosjekt-Orbit/half_adder/half_adder.sv:3]
+INFO: [Synth 8-9084] Verilog file 'C:/Users/perdo/Documents/Prosjekt Orbit/Prosjekt-Orbit/half_adder/half_adder.sv' ignored due to errors
+ERROR: [Synth 8-439] module 'half_adder' not found
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 1405.723 ; gain = 544.211
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+7 Infos, 0 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Fri Sep 20 14:13:38 2024...
