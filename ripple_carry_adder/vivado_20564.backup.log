@@ -1,0 +1,45 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Oct  4 16:04:23 2024
+# Process ID: 20564
+# Current directory: C:/Users/perdo/Documents/Prosjekt Orbit/Prosjekt-Orbit/ripple_carry_adder
+# Command line: vivado.exe -mode batch -source .\synth.tcl
+# Log file: C:/Users/perdo/Documents/Prosjekt Orbit/Prosjekt-Orbit/ripple_carry_adder/vivado.log
+# Journal file: C:/Users/perdo/Documents/Prosjekt Orbit/Prosjekt-Orbit/ripple_carry_adder\vivado.jou
+# Running On: DESKTOP-E28LBAG, OS: Windows, CPU Frequency: 1190 MHz, CPU Physical cores: 4, Host memory: 8260 MB
+#-----------------------------------------------------------
+source {.\synth.tcl}
+# set outputDir out/ 
+# file mkdir $outputDir
+# read_verilog -sv [ glob ripple_carry_adder.sv]
+read_verilog: Time (s): cpu = 00:00:11 ; elapsed = 00:00:23 . Memory (MB): peak = 463.297 ; gain = 183.137
+# read_xdc ripple_carry_adder.xdc
+# synth_design -top ripple_carry_adder -part xc7a35tcpg236-1
+Command: synth_design -top ripple_carry_adder -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 11364
+ERROR: [Synth 8-9263] cannot open include file 'full_adder\full_adder.sv' [C:/Users/perdo/Documents/Prosjekt Orbit/Prosjekt-Orbit/ripple_carry_adder/ripple_carry_adder.sv:39]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:19 . Memory (MB): peak = 1294.250 ; gain = 438.039
+---------------------------------------------------------------------------------
+ERROR: [Synth 8-9263] cannot open include file 'full_adder\full_adder.sv' [C:/Users/perdo/Documents/Prosjekt Orbit/Prosjekt-Orbit/ripple_carry_adder/ripple_carry_adder.sv:39]
+INFO: [Synth 8-10285] module 'ripple_carry_adder' is ignored due to previous errors [C:/Users/perdo/Documents/Prosjekt Orbit/Prosjekt-Orbit/ripple_carry_adder/ripple_carry_adder.sv:74]
+INFO: [Synth 8-9084] Verilog file 'C:/Users/perdo/Documents/Prosjekt Orbit/Prosjekt-Orbit/ripple_carry_adder/ripple_carry_adder.sv' ignored due to errors
+ERROR: [Synth 8-439] module 'ripple_carry_adder' not found
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:24 . Memory (MB): peak = 1401.598 ; gain = 545.387
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+8 Infos, 0 Warnings, 0 Critical Warnings and 4 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Fri Oct  4 16:05:33 2024...
